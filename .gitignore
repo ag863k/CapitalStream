@@ -1,0 +1,56 @@
+# CapitalStream Banking Dashboard
+
+# Dependencies
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Build outputs
+**/dist/
+**/build/
+**/out/
+.angular/
+.sass-cache/
+
+# Logs and runtime
+logs/
+*.log
+*.pid
+coverage/
+.nyc_output/
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Deployment configs (keep in repo but ignore secrets)
+.vercel/
+.netlify/
+
+# Azure specific
+.azure/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Database backups
+*.sql.backup
+*.sql~
